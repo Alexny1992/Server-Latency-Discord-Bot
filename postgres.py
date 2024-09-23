@@ -66,11 +66,11 @@ def insert_data(channel: str, avg_ping: float, std: float) -> None:
             conn.close()
             
 def aggregate_data() -> list[str, float, float]:
-    hostname = 'localhost'
-    database = 'postgres'
-    usename = 'postgres'
-    pwd = 'Postgres'
-    port_id = 5432
+    hostname = os.getenv('DB_HOST')
+    database = os.getenv('DB_NAME')
+    usename = os.getenv('DB_USER')
+    pwd = os.getenv('DB_PASS')
+    port_id = os.getenv('DB_PORT')
     conn = None
     cur = None
     
@@ -111,11 +111,11 @@ def aggregate_data() -> list[str, float, float]:
             conn.close()
 
 def retrive_channel_data(channel):
-    hostname = 'localhost'
-    database = 'postgres'
-    usename = 'postgres'
-    pwd = 'Postgres'
-    port_id = 5432
+    hostname = os.getenv('DB_HOST')
+    database = os.getenv('DB_NAME')
+    usename = os.getenv('DB_USER')
+    pwd = os.getenv('DB_PASS')
+    port_id = os.getenv('DB_PORT')
     conn = None
     cur = None
     

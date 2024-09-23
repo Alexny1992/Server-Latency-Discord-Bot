@@ -8,7 +8,6 @@ Showing Aggregated Pings Past 5 Minutes             |  Displaying Ping Past 5 Mi
 ![](https://github.com/Alexny1992/latency_bot/blob/master/check_ping.gif)  |  ![](https://github.com/Alexny1992/latency_bot/blob/master/ping_graph.gif)
 
 
-![](https://github.com/Alexny1992/latency_bot/blob/master/check_ping.gif) ![](https://github.com/Alexny1992/latency_bot/blob/master/ping_graph.gif)
 
 - **Technologies Used**: 
   - Python for bot development

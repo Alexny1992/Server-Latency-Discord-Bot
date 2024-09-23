@@ -1,0 +1,46 @@
+# Ping Latency Bot
+
+## Project Description
+This bot measures Maplestory servers' latency over the past 5 minutes and aggregates the average ping and standard deviation across 40 servers. It helps users monitor server performance and utilizes the information to their own advantages by playing on stable channels.
+
+- **Technologies Used**: 
+  - Python for bot development
+  - PostgreSQL for data storage
+  - Discord API for interaction
+  - Git for version control
+
+- **Library Used**
+  - Matplotlib
+  - Numpy
+  - Pandas
+  - Treading
+  - Tcp_latency
+  - Tabulate
+  - Postgres
+  - discord
+  - Asyncio
+  - OS
+
+- **Challenges Faced**:
+  - Handling multiple channel pings simultaneously
+  - Ensuring accurate data aggregation
+  - Connecting with Discord API to ensure it's running
+  - Connecting with PostgreSQL through psycopg2 to ensure data injection properly
+  - Managing Discord API rate limits to avoid being banned
+  - Implementing robust error handling for API timeouts and database issues
+  - Ensuring thread safety during concurrent pings to avoid race conditions
+  - Managing thread lifecycle and performance, especially with many channels
+  - Propagating errors from threads back to the main execution flow
+  - Implementing timeout handling to prevent hanging threads
+  - Outputting images of past 5 minutes of ping data for a selected channel and displaying them through Matplotlib
+    
+- **Next Step**: 
+  - [ ] Deploy the project to the cloud to ensure it runs 24/7, allowing users to access real-time ping data.
+  - [ ] Integrate Apache Kafka for streamlining information flow, enabling real-time data processing and messaging between components.
+  - [ ] Develop a web interface or dashboard for users to visualize ping statistics and access historical data.
+  - [ ] Implement user authentication and authorization to control access to the bot's features.
+  - [ ] Set up automated testing to ensure reliability and maintainability of the codebase.
+  - [ ] Explore additional data analytics features, such as generating reports or trends based on latency over time.
+
+## Table of Contents
+- [Usage](#usage)

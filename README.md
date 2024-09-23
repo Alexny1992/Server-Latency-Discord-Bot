@@ -42,6 +42,3 @@ This bot measures Maplestory servers' latency over the past 5 minutes and aggreg
   - Asyncio
   - OS
 
-
-## Table of Contents
-- [Usage](#usage)

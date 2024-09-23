@@ -22,17 +22,17 @@ This bot measures Maplestory servers' latency over the past 5 minutes and aggreg
   - OS
 
 - **Challenges Faced**:
-  - Handling multiple channel pings simultaneously
-  - Ensuring accurate data aggregation
-  - Connecting with Discord API to ensure it's running
-  - Connecting with PostgreSQL through psycopg2 to ensure data injection properly
-  - Managing Discord API rate limits to avoid being banned
-  - Implementing robust error handling for API timeouts and database issues
-  - Ensuring thread safety during concurrent pings to avoid race conditions
-  - Managing thread lifecycle and performance, especially with many channels
-  - Propagating errors from threads back to the main execution flow
-  - Implementing timeout handling to prevent hanging threads
-  - Outputting images of past 5 minutes of ping data for a selected channel and displaying them through Matplotlib
+  - [x] Handling multiple channel pings simultaneously
+  - [x] Ensuring accurate data aggregation
+  - [x] Connecting with Discord API to ensure it's running
+  - [x] Connecting with PostgreSQL through psycopg2 to ensure data injection properly
+  - [x] Managing Discord API rate limits to avoid being banned
+  - [x] Implementing robust error handling for API timeouts and database issues
+  - [x] Ensuring thread safety during concurrent pings to avoid race conditions
+  - [x] Managing thread lifecycle and performance, especially with many channels
+  - [x] Propagating errors from threads back to the main execution flow
+  - [x] Implementing timeout handling to prevent hanging threads
+  - [x] Outputting images of past 5 minutes of ping data for a selected channel and displaying them through Matplotlib
     
 - **Next Step**: 
   - [ ] Deploy the project to the cloud to ensure it runs 24/7, allowing users to access real-time ping data.

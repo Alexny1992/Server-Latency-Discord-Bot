@@ -1,7 +1,7 @@
 # Ping Latency Bot
 
 ## Project Description
-This bot measures Maplestory servers' latency over the past 5 minutes and aggregates the average ping and standard deviation across 40 servers. It helps users monitor server performance and utilizes the information to their own advantages by playing on stable channels.
+This bot measures Maplestory servers' latency over the past 5 minutes and aggregates the average ping and standard deviation across 40 servers. It helps users monitor server performance and utilizes the information to their advantage by playing on stable channels.
 
 - **Technologies Used**: 
   - Python for bot development
@@ -9,7 +9,7 @@ This bot measures Maplestory servers' latency over the past 5 minutes and aggreg
   - Discord API for interaction
   - Git for version control
 
-- **Library Used**
+- **Libraries Used**
   - Matplotlib
   - Numpy
   - Pandas

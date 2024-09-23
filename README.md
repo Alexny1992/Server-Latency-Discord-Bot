@@ -9,18 +9,6 @@ This bot measures Maplestory servers' latency over the past 5 minutes and aggreg
   - Discord API for interaction
   - Git for version control
 
-- **Libraries Used**
-  - Matplotlib
-  - Numpy
-  - Pandas
-  - Treading
-  - Tcp_latency
-  - Tabulate
-  - Postgres
-  - discord
-  - Asyncio
-  - OS
-
 - **Challenges Faced**:
   - [x] Handling multiple channel pings simultaneously
   - [x] Ensuring accurate data aggregation
@@ -41,6 +29,19 @@ This bot measures Maplestory servers' latency over the past 5 minutes and aggreg
   - [ ] Implement user authentication and authorization to control access to the bot's features.
   - [ ] Set up automated testing to ensure reliability and maintainability of the codebase.
   - [ ] Explore additional data analytics features, such as generating reports or trends based on latency over time.
+    
+- **Libraries Used**
+  - Matplotlib
+  - Numpy
+  - Pandas
+  - Treading
+  - Tcp_latency
+  - Tabulate
+  - Postgres
+  - discord
+  - Asyncio
+  - OS
+
 
 ## Table of Contents
 - [Usage](#usage)
